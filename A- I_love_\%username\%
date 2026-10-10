@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int t;
+	cin>>t;
+
+	int score;
+	cin>>score;
+
+	int max=score;
+	int min=score;
+	int count=0;
+
+	for(int i=1;i<=score;i++)
+	{
+		cin>>score;
+
+		if(score>max)
+		{
+			count++;
+			max=score;
+		}
+		else if(score<min)
+		{
+			count++;
+			min=score;
+
+		}
+	}
+	cout<<count;
+	 
+}
