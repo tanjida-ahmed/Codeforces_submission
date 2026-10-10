@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	double length,width,a,X,Y;
+	long long stoneNumber;
+	scanf("%lf %lf %lf",&length,&width,&a);
+
+	X=ceil(length/a);
+	Y=ceil(width/a);
+	stoneNumber=(X*Y);
+
+
+	printf("%lld",stoneNumber);
+
+
+
+
+}
